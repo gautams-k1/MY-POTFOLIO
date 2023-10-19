@@ -2,9 +2,9 @@
 
 
 .Introduction{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url(../../../public/assets/header-bg.jpg);
     background-position: center;
 }
