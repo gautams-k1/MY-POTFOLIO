@@ -17,7 +17,7 @@ export default function MyWork() {
         <div className={styles.MyWorkContact}>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-1.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-1.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -32,7 +32,7 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-2.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-2.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -47,7 +47,7 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-3.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-3.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -62,7 +62,7 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-4.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-4.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -77,7 +77,7 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-5.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-5.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -92,7 +92,7 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/assets/port_item-6.jpg" alt="Image" />
+                    <img src="/my-Potfolio/assets/port_item-6.jpg" alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>

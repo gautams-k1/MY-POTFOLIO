@@ -9,9 +9,9 @@ export default function Intro() {
             <span className={styles.hello}>Hello,</span>
             <span className={styles.introText}>I'm <span className={styles.introName}>Gautam Singh</span><br />Website Designer</span>
             <p className={styles.introPara}> I am a skilled and passionate Web-Designer with experience in creating visually appealing and user-friendly websites.</p>
-            <Button contact={true} icone='/assets/hireme.png' text='Hire Me'></Button>
+            <Button contact={true} icone='/my-Potfolio/assets/hireme.png' text='Hire Me'></Button>
         </div>
-        <img className={styles.introBG} src="/assets/image.png" alt="Image" />
+        <img className={styles.introBG} src="/my-Potfolio/assets/image.png" alt="Image" />
 
     </section>
   )

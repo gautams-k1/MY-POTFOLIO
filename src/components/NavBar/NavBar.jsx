@@ -37,7 +37,7 @@ export default function NavBar (){
                <Link activeClass={styles.active} to='Skilles' spy={true} smooth={true} offset={-50} duration={500} className={styles.dextopManuitems}>Skilles</Link>
                <Link activeClass={styles.active} to='work' spy={true} smooth={true} offset={-50} duration={500} className={styles.dextopManuitems}>Potfolio</Link>
             </div>
-            <Link activeClass={styles.BTNactive} to='contact' spy={true} smooth={true} offset={-50} duration={500} onClick={()=>setshowManu(false)} className={styles.navBtn}><Button icone='/assets/contact.png' text='Contact Me' contact={true}></Button></Link>
+            <Link activeClass={styles.BTNactive} to='contact' spy={true} smooth={true} offset={-50} duration={500} onClick={()=>setshowManu(false)} className={styles.navBtn}><Button icone='/my-Potfolio/assets/contact.jpg' text='Contact Me' contact={true}></Button></Link>
 
             <img className={styles.MobManu} src={Menu} alt="Image" onClick={()=>setshowManu(!showManu)}/>
             <div className={styles.Manu} style={{display: showManu ? 'flex' : 'none'}}>
