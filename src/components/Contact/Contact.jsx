@@ -41,10 +41,10 @@ export default function Contact() {
 
         </form>
         <div className={styles.socialLinks}>
-            <img src="/assets/instagram.png" alt="" />
-            <img src="/assets/facebook-icon.png" alt="" />
-            <img src="/assets/twitter.png" alt="" />
-            <img src="/assets/inkedin.png" alt="" />
+            <img src="/assets/instagram.png" alt="Image" />
+            <img src="/assets/facebook-icon.png" alt="Image" />
+            <img src="/assets/twitter.png" alt="Image" />
+            <img src="/assets/inkedin.png" alt="Image" />
         </div>
     </section>
   )

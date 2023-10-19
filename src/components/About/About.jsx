@@ -8,9 +8,9 @@ export default function About() {
         
         
         <div className={styles.About_Img}>
-            <img className={styles.about_IMG} src="/assets/image.jpg" alt="" />
+            <img className={styles.about_IMG} src="/assets/image.jpg" alt="Image" />
             <div className={styles.resume_Btn}>
-              <a href="#"><img className={styles.rasumeIMG} src="/assets/download.png" alt="" />Download Resume</a></div>
+              <a href="#"><img className={styles.rasumeIMG} src="/assets/download.png" alt="Image" />Download Resume</a></div>
         </div>
         <div className={styles.About_Text}>
             <div className={styles.tittle}><h2>About Me</h2></div>

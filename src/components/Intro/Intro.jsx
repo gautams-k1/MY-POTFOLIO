@@ -11,7 +11,7 @@ export default function Intro() {
             <p className={styles.introPara}> I am a skilled and passionate Web-Designer with experience in creating visually appealing and user-friendly websites.</p>
             <Button contact={true} icone='/assets/hireme.png' text='Hire Me'></Button>
         </div>
-        <img className={styles.introBG} src="/assets/image.png" alt="" />
+        <img className={styles.introBG} src="/assets/image.png" alt="Image" />
 
     </section>
   )

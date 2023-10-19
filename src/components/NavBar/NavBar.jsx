@@ -30,7 +30,7 @@ export default function NavBar (){
 
     return <div className={styles.navBar_outer}>
         <nav className={styles.navBar}>
-            <img className={styles.Logo} src={Logo} alt=""/>
+            <img className={styles.Logo} src={Logo} alt="Image"/>
             <div className={styles.dextopManu}>
                <Link activeClass={styles.active} to='Home' spy={true} smooth={true} offset={-100} duration={500} className={styles.dextopManuitems}>Home</Link>
                <Link activeClass={styles.active} to='About' spy={true} smooth={true} offset={-50} duration={500} className={styles.dextopManuitems}>About</Link>
@@ -39,7 +39,7 @@ export default function NavBar (){
             </div>
             <Link activeClass={styles.BTNactive} to='contact' spy={true} smooth={true} offset={-50} duration={500} onClick={()=>setshowManu(false)} className={styles.navBtn}><Button icone='/assets/contact.png' text='Contact Me' contact={true}></Button></Link>
 
-            <img className={styles.MobManu} src={Menu} alt="" onClick={()=>setshowManu(!showManu)}/>
+            <img className={styles.MobManu} src={Menu} alt="Image" onClick={()=>setshowManu(!showManu)}/>
             <div className={styles.Manu} style={{display: showManu ? 'flex' : 'none'}}>
                <Link activeClass={styles.active} to='Home' spy={true} smooth={true} offset={-100} duration={500} className={styles.Manuitems} onClick={()=>setshowManu(false)}>Home</Link>
                <Link activeClass={styles.active} to='About' spy={true} smooth={true} offset={-50} duration={500} className={styles.Manuitems} onClick={()=>setshowManu(false)}>About</Link>
