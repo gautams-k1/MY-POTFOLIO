@@ -10,7 +10,10 @@ export default function About() {
         <div className={styles.About_Img}>
             <img className={styles.about_IMG} src="/my-Potfolio/assets/image.jpg" alt="Image" />
             <div className={styles.resume_Btn}>
-              <a href="#"><img className={styles.rasumeIMG} src="/my-Potfolio/assets/download.png" alt="Image" />Download Resume<a href="/my-Potfolio/assets/GAUTAM SINGH KHICHI RESUME.pdf" download></a></a></div>
+              <a href="/my-Potfolio/assets/GAUTAM SINGH KHICHI RESUME.pdf" download>
+                <img className={styles.rasumeIMG} src="/my-Potfolio/assets/download.png" alt="Image" /> Download Resume
+              </a>
+            </div>
         </div>
         <div className={styles.About_Text}>
             <div className={styles.tittle}><h2>About Me</h2></div>
