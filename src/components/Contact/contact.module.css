@@ -1,0 +1,76 @@
+.contact{
+    /* height: calc(100vh - 5rem); */
+    max-width: 70rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 0 1rem;
+    /* border: 2px solid red; */
+}
+.contact h3{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dic{
+    font-size: 0.9rem;
+    font-weight: 300;
+    max-width: 55rem;
+    padding: 0 2rem;
+}
+.contact_form{
+    width: 100%;
+    max-width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+}
+.contact_form input ,.contact_form textarea{
+    width: 100%;
+    max-width: 40rem;
+    background-color: rgb(40, 40,40);
+    border: none;
+    padding: 1rem 1rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.submitBtn{
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+}
+.socialLinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.socialLinks img{
+    width: 3rem;
+    object-fit: cover;
+    margin: 0 0.75rem;
+}
+
+@media screen and (max-width: 768px){
+    .contact h3{
+        font-size: 2.5rem;
+    }
+    .dic{
+        font-size: 0.80rem;
+        padding: 0;
+    }
+    
+}

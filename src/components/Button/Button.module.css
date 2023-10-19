@@ -1,0 +1,25 @@
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+    /* font-size: 1rem; */
+    border-radius: 1rem;
+    /* font-weight: bold; */
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.btn img{
+    width: 20px;
+}
+
+
+.Submitbtn{
+    padding: 0.75rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 1rem;
+}

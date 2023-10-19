@@ -1,0 +1,89 @@
+.active{
+    border-bottom: 2px solid rgb(30, 30, 30);;
+    padding-bottom: 0.5rem;
+    color: rgb(30, 30, 30);
+}
+.BTNactive{
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 1rem;
+}
+.navBar_outer{
+    left: 0;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 994;
+}
+.navBar_Bg{
+    
+    background: linear-gradient(to right, #17D396, #07F7F7);
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.27);
+    padding: 10px 0;
+    
+    transition: all 0.4s ease 0s;
+}
+.navBar{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    /* height: 5rem; */
+    
+}
+.Logo{
+    /* height: 3rem; */
+    width: 4rem;
+}
+.dextopManuitems{
+    margin: 1rem;
+    cursor: pointer;
+}
+.dextopManuitems:hover{
+    border-bottom: 2px solid rgb(30, 30, 30);;
+    padding-bottom: 0.5rem;
+    color: rgb(30, 30, 30);
+}
+.MobManu{
+    display: none;
+    object-fit: cover;
+    height: 2.8rem;
+    transform: rotateX(3.142rad);
+}
+.Manu{
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(40,40, 40);
+    border-radius: 1rem;
+}
+.Manuitems{
+    color: #fff;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: rgb(30, 30, 30);
+    border-radius:0.5rem ;
+}
+
+@media only screen and (max-width: 767px) {
+    .MobManu{
+        display: flex;
+    }
+    .dextopManu{
+        display: none;
+    }
+    .navBtn{
+        display: none;
+    }
+}

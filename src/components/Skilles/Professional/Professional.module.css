@@ -1,0 +1,53 @@
+.profcontainer{
+    width: 100%;
+    
+    
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+    background-color: rgb(40 40 40);
+}
+.Tittle{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.skills{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    max-width: 70rem;
+    margin: 2rem 0;
+}
+.skill_bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .skill_bar{
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}

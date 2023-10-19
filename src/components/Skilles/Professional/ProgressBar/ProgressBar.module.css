@@ -1,0 +1,94 @@
+/* .progress_Bar{
+    border: 2px solid red;
+} */
+.progress_Bar.hidden {
+    animation: none;
+}
+
+.progress_Bar_tittle{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+.progress_Bar_outer{
+    background: #959595;
+    max-width: 500px;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    /* display: none; */
+}
+.progress_Bar_outer div{
+    border-radius: 5px;
+    height: 5px;
+    width: 0%;
+    /* background-color: red; */
+}
+.progress_Bar_outer div span{
+    /* height: 40px; */
+    /* width: 40px; */
+    /* border-radius: 50%; */
+    background-color:transparent;
+    float: right;
+    margin-top: -27px;
+    margin-right: -35px;
+    color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+/* .progress_Bar.hidden {
+    animation: none;
+} */
+.progress_Bar{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -2.5px;
+        width: 10px;
+        height: 10px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+}
+.html{
+    background-color: aqua;
+    animation: html 1s linear forwards;
+}
+@keyframes html {
+    100%{
+        width: 86%;
+    }
+}
+.css{
+    background-color: aqua;
+    animation: css 1s linear forwards;
+}
+@keyframes css {
+    100%{
+        width: 45%;
+    }
+}
+.javascript{
+    background-color: aqua;
+    animation: javascript 1s linear forwards;
+}
+@keyframes javascript {
+    100%{
+        width: 80%;
+    }
+}
+.ILLUSTRATOR{
+    background-color: aqua;
+    animation: ILLUSTRATOR 1s linear forwards;
+}
+@keyframes ILLUSTRATOR {
+    100%{
+        width: 45%;
+    }
+}
+
+

@@ -1,0 +1,96 @@
+.intro{
+    height: calc(100vh - 4rem);
+    color: #fff;
+    width: 100%;
+    max-width: 80rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid pink; */
+}
+.introcontant{
+    /* border: 2px solid pink; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.introName{
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    max-width: 36rem;
+}
+.introbtn{
+    margin-top: 1rem;
+}
+.introBG{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+    /* border: 2px solid #fff; */
+}
+
+@media only screen and (max-width: 429px) {
+    .introBG{
+        object-position: 18vw 0px;
+    }
+    .hello{
+        font-size: 1.5rem;
+    }
+    .introText{
+        font-size: 2rem;
+    }
+    .introPara{
+        font-size: 0.80rem;
+        max-width: 28rem;
+    }
+}
+@media screen and (min-width: 430px) and (max-width: 544px){
+    .introBG{
+        object-position: 11vw 0px;
+    }
+    .hello{
+        font-size: 1.5rem;
+    }
+    .introText{
+        font-size: 2.5rem;
+    }
+    .introPara{
+        font-size: 0.80rem;
+        max-width: 28rem;
+    }
+}
+@media screen and (min-width: 545px) and (max-width: 768px) {
+   
+    .introBG{
+        object-position: 3vw 0px;
+    }
+    .hello{
+        font-size: 1.5rem;
+    }
+    .introText{
+        font-size: 2.5rem;
+    }
+    .introPara{
+        font-size: 0.80rem;
+        max-width: 28rem;
+    }
+}

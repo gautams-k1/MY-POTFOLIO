@@ -1,0 +1,52 @@
+.wrok{
+    min-height: calc(100vh - 5rem);
+    width: 100%;
+    max-width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+.wrokTitle{
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wrokDisc{
+    font-size: 0.9rem;
+    font-weight: 300;
+    max-width: 55rem;
+    padding: 0 2rem;
+}
+.wrokimgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 60rem;
+    margin-top: 2rem;
+}
+.wrokimgs Img{
+    height: 20rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+    .wrokTitle{
+        font-size: 2.5rem;
+    }
+    .wrokDisc{
+        font-size: 0.80rem;
+        padding: 0;
+    }
+    
+}
