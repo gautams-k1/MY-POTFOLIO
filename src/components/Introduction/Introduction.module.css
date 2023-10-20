@@ -9,7 +9,7 @@
     background-image: url(../../../public/assets/header-bg.jpg);
     background-position: center;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 .Introduction::after{
     content: '';
