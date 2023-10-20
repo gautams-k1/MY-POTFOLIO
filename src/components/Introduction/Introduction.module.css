@@ -8,8 +8,8 @@
     /* border: 2px solid red; */
     background-image: url(../../../public/assets/header-bg.jpg);
     background-position: center;
-    overflow: hidden;
-    /* position: relative; */
+    background-size: cover;
+
 }
 .Introduction::after{
     content: '';
