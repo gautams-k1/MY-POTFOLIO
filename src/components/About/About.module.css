@@ -116,6 +116,9 @@
     .tittle h2{
         font-size: 40px;
     }
+    .About_Text p{
+        margin: 20px 0;
+    }
 }
 @media screen and (min-width: 480px) and (max-width:786px){
     .About{

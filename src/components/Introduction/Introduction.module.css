@@ -2,7 +2,7 @@
 
 
 .Introduction{
-    height: 100vh;
+    max-height: 100vh;
     width: 100%;
     /* border: 2px solid red; */
     background-image: url(../../../public/assets/header-bg.jpg);

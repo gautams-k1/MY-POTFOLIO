@@ -11,13 +11,13 @@ export default function Professional() {
                 <div className={styles.skills}>
                     <div className={styles.skill_bar}>
                         <ProgressBar progressTittle='HtML' percent='95%' className='html' />
-                        <ProgressBar progressTittle='CSS' percent='45%' className='css' />
+                        <ProgressBar progressTittle='CSS' percent='90%' className='css' />
                         <ProgressBar progressTittle='JAVA SCRIPT' percent='80%' className='javascript' />
                     </div>
                     <div className={styles.skill_bar}>    
-                        <ProgressBar progressTittle='ILLUSTRATOR' percent='45%' className='ILLUSTRATOR' />
-                        <ProgressBar progressTittle='JAVA SCRIPT' percent='80%' className='javascript' />
-                        <ProgressBar progressTittle='ILLUSTRATOR' percent='45%' className='ILLUSTRATOR' />
+                        <ProgressBar progressTittle='REACT JS' percent='88%' className='reactjs' />
+                        <ProgressBar progressTittle='BOOTSTRAP' percent='80%' className='javascript' />
+                        <ProgressBar progressTittle='RESPONSIVE DESIGN' percent='99%' className='RESPONSIVE' />
                     </div>    
 
                 </div>

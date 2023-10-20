@@ -60,7 +60,7 @@
 }
 @keyframes html {
     100%{
-        width: 86%;
+        width: 95%;
     }
 }
 .css{
@@ -69,7 +69,7 @@
 }
 @keyframes css {
     100%{
-        width: 45%;
+        width: 90%;
     }
 }
 .javascript{
@@ -81,13 +81,22 @@
         width: 80%;
     }
 }
-.ILLUSTRATOR{
+.reactjs{
     background-color: aqua;
-    animation: ILLUSTRATOR 1s linear forwards;
+    animation: reactjs 1s linear forwards;
 }
-@keyframes ILLUSTRATOR {
+@keyframes reactjs {
     100%{
-        width: 45%;
+        width: 88%;
+    }
+}
+.RESPONSIVE{
+    background-color: aqua;
+    animation: RESPONSIVE 1s linear forwards;
+}
+@keyframes RESPONSIVE {
+    100%{
+        width: 94%;
     }
 }
 
