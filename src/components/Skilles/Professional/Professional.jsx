@@ -17,7 +17,7 @@ export default function Professional() {
                     <div className={styles.skill_bar}>    
                         <ProgressBar progressTittle='REACT JS' percent='88%' className='reactjs' />
                         <ProgressBar progressTittle='BOOTSTRAP' percent='80%' className='javascript' />
-                        <ProgressBar progressTittle='RESPONSIVE DESIGN' percent='99%' className='RESPONSIVE' />
+                        <ProgressBar progressTittle='RESPONSIVE DESIGN' percent='94%' className='RESPONSIVE' />
                     </div>    
 
                 </div>

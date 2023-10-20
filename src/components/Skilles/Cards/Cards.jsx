@@ -29,18 +29,18 @@ export default function Cards() {
       <div className={styles.card_container}>
             <div className={`${styles.card_items} ${styles.hidean}`}>
                 <span>02.</span>
-                <h3>WEB DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur autem fugit molestiae aliquam in maiores porro vero atque consectetur quasi!</p>
+                <h3>SEO Awareness</h3>
+                <p>Understanding the basics of search engine optimization (SEO) is beneficial. Web designers can create designs that are optimized for search engines</p>
             </div>
             <div className={`${styles.card_items} ${styles.card_items_main} ${styles.hidean}`}>
                 <span>01.</span>
-                <h3>UX/UI DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur autem fugit molestiae aliquam in maiores porro vero atque consectetur quasi!</p>
+                <h3>Frameworks and Libraries</h3>
+                <p>Familiarity with frameworks and libraries, such as React js or Bootstrap, can speed up the process and provide consistent user interfaces.</p>
             </div>
             <div className={`${styles.card_items} ${styles.hidean}`}>
                 <span>03.</span>
-                <h3>APP DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur autem fugit molestiae aliquam in maiores porro vero atque consectetur quasi!</p>
+                <h3>Web Performance Optimization</h3>
+                <p> Knowledge of web performance optimization techniques, such as image optimization and minification, can lead to faster-loading websites.</p>
             </div>
       </div>
     </div>

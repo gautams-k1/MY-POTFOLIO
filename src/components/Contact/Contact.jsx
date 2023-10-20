@@ -41,10 +41,11 @@ export default function Contact() {
 
         </form>
         <div className={styles.socialLinks}>
-            <img src="/my-Potfolio/assets/instagram.png" alt="Image" />
-            <img src="/my-Potfolio/assets/facebook-icon.png" alt="Image" />
-            <img src="/my-Potfolio/assets/twitter.png" alt="Image" />
-            <img src="/my-Potfolio/assets/inkedin.png" alt="Image" />
+            {/* <img src="/my-Potfolio/assets/instagram.png" alt="Image" />
+            <img src="/my-Potfolio/assets/facebook-icon.png" alt="Image" /> */}
+            <a href="https://github.com/gautams-k1"><img src="/my-Potfolio/assets/github.png" alt="Image" /></a>
+            <a href="https://www.linkedin.com/in/gautam-singh-323927263/"><img src="/my-Potfolio/assets/inkedin.png" alt="Image" /></a>
+            
         </div>
     </section>
   )
