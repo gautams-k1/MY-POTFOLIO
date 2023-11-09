@@ -17,16 +17,16 @@ export default function MyWork() {
         <div className={styles.MyWorkContact}>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/my-Potfolio/assets/port_item-1.jpg" alt="Image" />
+                    <a href=""><img src="/my-Potfolio/assets/eccom.webp" alt="Image" /></a>
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
-                    <a className={styles.port_link} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
+                    <a className={styles.port_link} href="https://gautams-k1.github.io/E-COMMERCE/" target="_blank"></a>
                   </div>
                   <div className={styles.port_text}>
-                    <h4>BRANaDING DESIGN</h4>
-                    <p>LOGO DESIGN</p>
+                    <h4>PROJECT</h4>
+                    <p>E-COMMERCE</p>
                   </div>
                 </div>
             </div>
