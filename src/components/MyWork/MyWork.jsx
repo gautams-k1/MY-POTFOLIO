@@ -17,7 +17,7 @@ export default function MyWork() {
         <div className={styles.MyWorkContact}>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <a href=""><img src="/my-Potfolio/assets/eccom.webp" alt="Image" /></a>
+                    <a href=""><img src="/my-Potfolio/assets/ecommece.webp" alt="Image" /></a>
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
@@ -32,16 +32,16 @@ export default function MyWork() {
             </div>
             <div className={styles.MyWorkContact_items}>
                 <div className={styles.outer}>
-                    <img src="/my-Potfolio/assets/port_item-2.jpg" alt="Image" />
+                <img src="/my-Potfolio/assets/dice.jpg" style={{ height: '105%' }} alt="Image" />
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
-                    <a className={styles.port_link} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
+                    <a className={styles.port_link} href="https://gautams-k1.github.io/Dice-Game/" target="_blank"></a>
                   </div>
                   <div className={styles.port_text}>
-                    <h4>BRANaDING DESIGN</h4>
-                    <p>LOGO DESIGN</p>
+                    <h4>Dice Game</h4>
+                    <p>Project</p>
                   </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default function MyWork() {
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
                     <a className={styles.port_link} href="#/"></a>
                   </div>
                   <div className={styles.port_text}>
@@ -66,7 +66,7 @@ export default function MyWork() {
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
                     <a className={styles.port_link} href="#/"></a>
                   </div>
                   <div className={styles.port_text}>
@@ -81,7 +81,7 @@ export default function MyWork() {
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
                     <a className={styles.port_link} href="#/"></a>
                   </div>
                   <div className={styles.port_text}>
@@ -96,7 +96,7 @@ export default function MyWork() {
                 </div>
                 <div className={styles.inner}>
                   <div className={styles.port_btn}>
-                    <a className={styles.port_search} href="#/"></a>
+                    {/* <a className={styles.port_search} href="#/"></a> */}
                     <a className={styles.port_link} href="#/"></a>
                   </div>
                   <div className={styles.port_text}>
